@@ -1,0 +1,10 @@
+[project]
+name = "neuroecosistema"
+version = "1.0.0"
+description = "Ecosistema 2D de presas y depredadores controlados por redes neuronales entrenadas por neuroevolución"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.0",
+    "pygame-ce>=2.5.8",
+    "matplotlib>=3.8",
+]

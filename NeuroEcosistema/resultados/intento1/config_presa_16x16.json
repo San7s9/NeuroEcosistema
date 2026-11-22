@@ -1,0 +1,72 @@
+{
+  "nombre": "presa_16x16",
+  "especie": "presa",
+  "ocultas": [
+    16,
+    16
+  ],
+  "entradas": 12,
+  "entradas_anuladas": [],
+  "activacion": "tanh",
+  "evolucion": {
+    "poblacion": 32,
+    "episodios_por_genoma": 2,
+    "generaciones": 60,
+    "elite": 4,
+    "torneo": 3,
+    "sigma": 0.1,
+    "prob_cruce": 0.5,
+    "semilla": 42,
+    "finalistas": 5
+  },
+  "escenario_entrenamiento": {
+    "ancho": 700,
+    "alto": 560,
+    "pasos_max": 800,
+    "presa_vel_max": 2.0,
+    "presa_radio": 6,
+    "presa_vision": 130,
+    "presa_energia_inicial": 0.7,
+    "presa_costo_base": 0.001,
+    "presa_costo_mov": 0.0015,
+    "planta_energia": 0.3,
+    "radio_comer": 9,
+    "depr_vel_max": 2.3,
+    "depr_radio": 8,
+    "depr_vision": 170,
+    "depr_energia_inicial": 0.8,
+    "depr_costo_base": 0.0008,
+    "depr_costo_mov": 0.0025,
+    "captura_energia": 0.45,
+    "radio_captura": 11,
+    "obstaculo_radio": 35,
+    "presas": 15,
+    "depredadores": 3,
+    "plantas": 35,
+    "rebrote": 0.015,
+    "obstaculos": 2,
+    "nombre": "entrenamiento"
+  },
+  "rival": "reglas",
+  "peso_comida": 0.02,
+  "peso_energia_depr": 0.3,
+  "semillas_validacion": [
+    500,
+    501,
+    502,
+    503,
+    504,
+    505,
+    506,
+    507
+  ],
+  "aptitud_validacion": 0.4844270833333334,
+  "aptitud_validacion_finalistas": [
+    0.48214583333333333,
+    0.4844270833333334,
+    0.4038333333333334,
+    0.45676041666666667,
+    0.472
+  ],
+  "duracion_segundos": 228.2
+}
