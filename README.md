@@ -11,9 +11,6 @@ Simulación 2D en la que **presas** y **depredadores** se mueven según la salid
 
 | Documento | Contenido |
 |---|---|
-| [`docs/INFORME.md`](docs/INFORME.md) | Informe técnico: problema, arquitectura, metodología, resultados, discusión, fallos y recomendaciones |
-| [`docs/BITACORA.md`](docs/BITACORA.md) | Bitácora de decisiones técnicas (alternativas, evidencia y criterio) |
-| [`docs/GUIA_SUSTENTACION.md`](docs/GUIA_SUSTENTACION.md) | Explicación de todo el código y preguntas probables de la sustentación |
 | [`resultados/resumen.md`](resultados/resumen.md) | Tablas de resultados generadas automáticamente |
 
 ## Instalación
